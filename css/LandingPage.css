@@ -1,7 +1,7 @@
 .main{
-    background: rgb(228 147 84 / 62%);
+    background: rgba(64, 45, 31, 0.62);
     background-image: url("../images/background.png");
-    height: 91vh;
+    height: 93vh;
     background-repeat: round;
 }
 
