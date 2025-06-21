@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
-     <link rel="stylesheet" href="../project/css/LandingPage.css"> 
+     <link rel="stylesheet" href="./css/LandingPage.css"> 
 </head>
 <body>
     <?php require_once "navbar.php"?>
@@ -23,7 +23,7 @@
     </div>
     <div class="cat-fact d-flex flex-column justify-content-center align-items-center pt-">
         <div class="mb-2">
-            <img src="../project/images/bro.png" class="cat-photo">
+            <img src="./images/bro.png" class="cat-photo">
         </div>
         <div class="mb-2 text-center">
             <h2 style="color: #F59245">Cat Fact</h2>

@@ -3,13 +3,13 @@
 <head>
     <title>Calendar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../project/css/calendar.css">
+    <link rel="stylesheet" href="./css/calendar.css">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.0.0/index.global.min.js'></script>
-    <script src="../project/jquery.js"></script>
+    <script src="./jquery.js"></script>
     <script>
         const diaries = <?php echo json_encode($diary); ?>;
     </script>
-    <script src="../project/script.js"></script>
+    <script src="./script.js"></script>
     <style>
         td{
             height: 6em!important;

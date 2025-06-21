@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../project/css/navbar.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
 <body>
     <section id="container">
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
-              <a class="navbar-brand" href="index.php"><img src="../project/images/Frame 5.png"/></a>
+              <a class="navbar-brand" href="index.php"><img src="./images/Frame 5.png"/></a>
               <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">       
-                <span class="navbar-toggler-icon"><img src="../project/images/Menu.png"></span>
+                <span class="navbar-toggler-icon"><img src="./images/Menu.png"></span>
               </button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav navbar-left">
