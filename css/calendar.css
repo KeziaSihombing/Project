@@ -1,0 +1,100 @@
+p{
+  margin: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.row{
+  --bs-gutter-x: 0!important;
+}
+
+.blur{
+  filter: blur(4px);
+}
+
+
+.monthYear{
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+#prev-button, #next-button{
+  border: none;
+  background-color: transparent;
+}
+
+.calendar-head div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F59245;
+  height: 3em;
+}
+
+
+
+select{
+  border: none;
+  height: fit-content;
+  align-self: center;
+  background-color: transparent;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+td{
+  height: 7.8em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#info-show{
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  min-height: 75%;
+  height: fit-content;
+  padding: 2em;
+  border-radius: 1.875rem 1.875rem 0 0;
+  background-color: #f5dbc7;
+}
+
+.btn-close{
+  float: right;
+}
+
+.pet-photo{
+  margin: 0.5em;
+  border-radius: 100%;
+  width:60%;
+  height:60%;
+  background-color: white;
+}
+
+.list-diary{
+  height: 6em;
+  border-radius: 0.625rem;
+  background: #D9D9D9;
+}
+
+.list-diary div{
+  display: flex;
+  align-items: center;
+}
+
+.list-diary .col-3{
+  justify-content: center;
+}
+
+
+

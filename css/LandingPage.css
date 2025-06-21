@@ -1,0 +1,36 @@
+.main{
+    background: rgb(228 147 84 / 62%);
+    background-image: url("../images/background.png");
+    height: 91vh;
+    background-repeat: round;
+}
+
+.main h1{
+    margin-top: 2em;
+    color: white;
+    font-weight: 700;
+}
+
+.main p{
+    color: white;
+    margin-top: 0;
+}
+
+.diary-button, .fact-button{
+    background-color: #F59245;
+    border: none;
+    color: white;
+    width: 12em;
+    height: 3em;
+    margin-top: 2em;
+    border-radius: 1.8rem;
+}
+
+.cat-fact{
+    height: 100vh;
+}
+
+.cat-photo{
+    width: 14em;
+    height: 14em;
+}
