@@ -1,7 +1,7 @@
 <?php
 
 $controller = $_GET['c'] ?? 'Login';
-$method = $_GET['m'] ?? 'loginAction';
+$method = $_GET['m'] ?? 'loginPage';
 
 require_once "controller/Controller.class.php";
 
