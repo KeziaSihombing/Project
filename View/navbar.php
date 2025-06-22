@@ -18,7 +18,7 @@
               <ul class="nav navbar-nav navbar-left">
                 <li class="nav-item active"><a href="index.php?c=Calendar&m=landingPage">Home</a></li>
                 <li class="nav-item"><a href="index.php?c=Calendar&m=calendar">Calendar</a></li>
-                <li class="nav-item"><a href="#">Cat Diary</a></li>
+                <li class="nav-item"><a href="index.php?c=Diary&m=list">Cat Diary</a></li>
                 <li class="nav-item"><a href="index.php?c=Profile&m=index">Profile</a></li>
                 <li class="nav-item logout"><a href="#">Log Out</a></li>
               </ul>
