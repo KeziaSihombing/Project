@@ -14,7 +14,7 @@ class Cat extends Model {
                 'breed' => $row['breed'],
                 'age' => $row['age'],
                 'weight' => $row['weight'],
-                'cat_img' => $row['cat_img'] ?? 'img/defaultimage.png',
+                'cat_img' => $row['cat_img'] ?? 'images/defaultimage.png',
                 'id_user' => $row['id_user']
             ];
         }
@@ -35,7 +35,7 @@ class Cat extends Model {
                 'breed' => $row['breed'],
                 'age' => $row['age'],
                 'weight' => $row['weight'],
-                'cat_img' => $row['cat_img'] ?? 'img/defaultimage.png',
+                'cat_img' => $row['cat_img'] ?? 'images/defaultimage.png',
                 'id_user' => $row['id_user']
             ];
         }
@@ -48,7 +48,7 @@ class Cat extends Model {
         $breed = $this->escape($data['breed']);
         $age = (int)$data['age'];
         $weight = (float)$data['weight'];
-        $cat_img = $this->escape($data['cat_img'] ?? 'img/defaultimage.png');
+        $cat_img = $this->escape($data['cat_img'] ?? 'images/defaultimage.png');
         $id_user = (int)$data['id_user'];
         
         $sql = "INSERT INTO cat (name, breed, age, weight, cat_img, id_user) 
@@ -63,7 +63,7 @@ class Cat extends Model {
         $breed = $this->escape($data['breed']);
         $age = (int)$data['age'];
         $weight = (float)$data['weight'];
-        $cat_img = $this->escape($data['cat_img'] ?? 'img/defaultimage.png');
+        $cat_img = $this->escape($data['cat_img'] ?? 'images/defaultimage.png');
         $id_user = (int)$data['id_user'];
         
         $sql = "UPDATE cat SET 

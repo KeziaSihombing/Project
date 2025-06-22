@@ -53,7 +53,7 @@
             <?php if ($error): ?>
                 <p class="error-message"><?php echo htmlspecialchars($error); ?></p>
             <?php endif; ?>
-            <img src="/catcare/<?= htmlspecialchars($user['profile_img']) ?>" class="profile-img" alt="Profil Pengguna" onerror="this.src='/catcare/img/defaultimage.png'">
+            <img src="./images/<?= htmlspecialchars($user['profile_img']) ?>" class="profile-img" alt="Profil Pengguna" onerror="this.src='./images/defaultimage.png'">
             <h2 class="mt-3 text-custom"> <strong><?= htmlspecialchars($user['name']) ?></strong></h2>
             <p><?= htmlspecialchars($user['bio']) ?></p>
             <div class="position-relative">
@@ -74,7 +74,7 @@
                         <a href="index.php?c=Profile&m=editKucing&id=<?php echo $cat['id_cat']; ?>" class="card-link">
                             <div id="kucing-0<?php echo $cat['id_cat']; ?>" class="card mx-auto mb-3" style="max-width: 300px;">
                                 <div class="d-flex align-items-center p-3">
-                                    <img src="/catcare/<?php echo htmlspecialchars($cat['cat_img']); ?>" class="profile-img me-3" alt="Kucing" style="width: 100px; height: 100px; object-fit: cover;" onerror="this.src='/catcare/img/defaultimage.png'">
+                                    <img src="./images/<?php echo htmlspecialchars($cat['cat_img']); ?>" class="profile-img me-3" alt="Kucing" style="width: 100px; height: 100px; object-fit: cover;" onerror="this.src='./images/defaultimage.png'">
                                     <div class="metadata">
                                         <p class="mb-1"><strong class="text-custom"><?php echo htmlspecialchars($cat['name']); ?></strong></p>
                                         <p class="mb-1"><?php echo htmlspecialchars($cat['breed']); ?></p>
