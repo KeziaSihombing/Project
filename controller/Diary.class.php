@@ -2,14 +2,16 @@
 
 class Diary extends Controller {
     function list() {
+        session_start();
         $model = $this->loadModel('DiaryModel');
-        $data = $model->getByUser(1); // Contoh hardcoded id_user
+        $data = $model->getByUser($_SESSION['id_user']); 
         $this->loadView('list-diary.php', ['diaries' => $data]);
     }
 
     function form() {
-        $catModel = $this->loadModel('CatModel');
-        $cats = $catModel->getByUser(1);
+        session_start();
+        $catModel = $this->loadModel('Cat');
+        $cats = $catModel->getAllCats($_SESSION['id_user']);
         $this->loadView('form-diary.php', ['cats' => $cats]);
     }
 

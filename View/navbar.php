@@ -10,9 +10,9 @@
     <section id="container">
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
-              <a class="navbar-brand" href="index.php"><img src="./images/Frame 5.png"/></a>
+              <a class="navbar-brand" href="index.php?c=Calendar&m=landingPage"><img src="./images/Frame 5.png"/></a>
               <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">       
-                <span class="navbar-toggler-icon"><img src="./images/Menu.png"></span>
+                <span class="navbar-toggler"><img src="./images/Menu.png"></span>
               </button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav navbar-left">
