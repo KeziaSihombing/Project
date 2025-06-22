@@ -43,7 +43,7 @@
                 <div class="form-group mb-3">
                     <label for="profile_img">Path/URL Foto Profil:</label>
                     <input type="text" class="form-control" id="profile_img" name="profile_img" value="<?php echo htmlspecialchars($user['profile_img']); ?>" placeholder="Contoh: img/rheza.jpg atau https://example.com/image.jpg">
-                    <small>Foto saat ini: <img src="/catcare/<?php echo htmlspecialchars($user['profile_img']); ?>" width="50" alt="Current Image" onerror="this.src='/catcare/img/defaultimage.png'"></small>
+                    <small>Foto saat ini: <img src="./images/<?php echo htmlspecialchars($user['profile_img']); ?>" width="50" alt="Current Image" onerror="this.src='./images/defaultimage.png'"></small>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div>

@@ -6,7 +6,7 @@ class Login extends Controller {
 
     function loginAction() {
         session_start();
-        $model = $this->loadModel('UserModel');
+        $model = $this->loadModel('User');
 
         $username = $_POST['username'];
 

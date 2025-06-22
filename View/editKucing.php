@@ -52,7 +52,7 @@
                 <div class="form-group mb-3">
                     <label for="cat_img">Path/URL Foto Kucing:</label>
                     <input type="text" class="form-control" id="cat_img" name="cat_img" value="<?php echo htmlspecialchars($cat['cat_img']); ?>" placeholder="Contoh: img/miy.cat.jpg atau https://example.com/cat.jpg">
-                    <small>Foto saat ini: <img src="/catcare/<?php echo htmlspecialchars($cat['cat_img']); ?>" width="50" alt="Current Image" onerror="this.src='/catcare/img/defaultimage.png'"></small>
+                    <small>Foto saat ini: <img src="./images/<?php echo htmlspecialchars($cat['cat_img']); ?>" width="50" alt="Current Image" onerror="this.src='./images/defaultimage.png'"></small>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div>

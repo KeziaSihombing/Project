@@ -39,7 +39,7 @@ $(()=>{
                     diaryHTML += `
                         <div class="row list-diary my-3">
                             <div class="col-3">
-                                <img src="../project/images/${diary.cat_img}" class="pet-photo">
+                                <img src="./images/${diary.cat_img}" class="pet-photo">
                             </div>
                             <div class="col-5 h3">${diary.name}</div>
                         </div>
