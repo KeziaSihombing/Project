@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 $controller = $_GET['c'] ?? 'Login';
 $method = $_GET['m'] ?? 'loginPage';

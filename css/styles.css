@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.btn-custom, .btn-custom:hover {
+    background-color: #F59245;
+    color: white;
+    border-color: #F59245;
+}
+
+.btn-outline-custom {
+    color: #F59245;
+    border-color: #F59245;
+}
+
+.btn-outline-custom:hover {
+    background-color: #F59245;
+    color: white;
+}
+
+.text-custom {
+    color: #F59245 !important;
+}
+
+.logo-svg {
+    width: 200px;
+    height: auto;
+}
+
+.profile-img-user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.card-link:hover .card {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-container input[type="file"] {
+    padding: 0.2rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.button-group .btn-sm {
+    padding: 0.25rem 0.75rem;
+}
+
+.button-group .right-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 576px) {
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    .card {
+        max-width: 100% !important;
+    }
+    .button-group {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .button-group .right-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    .button-group .right-buttons .btn {
+        width: 100%;
+    }
+}
