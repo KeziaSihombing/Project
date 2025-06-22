@@ -1,0 +1,63 @@
+.kontainer {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 0;
+}
+
+.isi-bulan {
+  font-weight: bold;
+  background-color: #d4cbd1;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.isi-kotak {
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.isi-kotak:hover {
+  background-color: #e9ecef;
+}
+
+.text h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.text p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.85rem;
+}
+
+.isi-foto img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+@media (max-width: 576px) {
+  .isi-kotak {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .isi-foto {
+    margin-left: 0 !important;
+    margin-top: 0.5rem;
+    align-self: center;
+  }
+
+  .isi-foto img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+}
